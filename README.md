@@ -66,7 +66,7 @@ Find these values in your Supabase project's **Settings → API** page. Never co
 
 ### 3. Set your wear schedule
 
-Open [reminder v3.py](reminder v3.py) and update these values:
+Open reminder v3.py and update these values:
 
 ```python
 WEAR_INTERVAL_DAYS = 3
