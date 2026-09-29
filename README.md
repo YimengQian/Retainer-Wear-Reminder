@@ -66,7 +66,7 @@ Find these values in your Supabase project's **Settings → API** page. Never co
 
 ### 3. Set your wear schedule
 
-Open [app.py](app.py) and update these values:
+Open [reminder v3.py](reminder v3.py) and update these values:
 
 ```python
 WEAR_INTERVAL_DAYS = 3
@@ -76,10 +76,10 @@ FIRST_WEAR_DATE = "2025-02-14"
 - `WEAR_INTERVAL_DAYS`: Number of days between scheduled wear dates. For example, set it to `2` for a two-day interval.
 - `FIRST_WEAR_DATE`: Your first actual wear date, in `YYYY-MM-DD` format.
 
-### 4. Run the app
+### 4. Run the reminder
 
 ```bash
-streamlit run app.py
+streamlit run reminder v3.py
 ```
 
 Open the local URL printed in the terminal to use the app.
@@ -94,9 +94,10 @@ Open the local URL printed in the terminal to use the app.
 
 ```text
 .
-├── app.py            # Current Streamlit app with Supabase synchronization
+├── reminder v3.py    # Current Streamlit app with Supabase synchronization
 ├── reminder.py       # Earlier implementation
 ├── reminder v1.py    # Earlier implementation
+├── reminder v2.py    # Earlier implementation
 ├── requirements.txt  # Python dependencies
 └── .devcontainer/    # Development-container configuration
 ```
